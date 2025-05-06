@@ -18,7 +18,7 @@ const Footer = () => {
 
         {/* Center Logo */}
         <div style={styles.center}>
-          <img src="/O.png" alt="Logo" style={styles.logo} />
+          <img src="../public/O.png" alt="Logo" style={styles.logo} />
         </div>
 
         {/* Right Social Icons (vertical layout) */}

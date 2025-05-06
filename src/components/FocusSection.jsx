@@ -35,8 +35,8 @@ const FocusCard = ({ icon, title, desc, borderColor }) => {
       onMouseLeave={() => setHover(false)}
     >
       <FontAwesomeIcon icon={icon} style={{ fontSize: '2.5rem', marginBottom: '15px', color: '#333' }} />
-      <div style={{ fontWeight: 'bold', fontSize: '1.1rem', marginBottom: '10px' }}>{title}</div>
-      <div style={{ fontSize: '0.9rem', color: '#777', textAlign: 'center' }}>{desc}</div>
+      <h3 style={{ fontWeight: 'bold', fontSize: '1.1rem', marginBottom: '10px' }}>{title}</h3>
+      <p style={{ fontSize: '0.9rem', color: '#777', textAlign: 'center' }}>{desc}</p>
       <div style={{
         height: '4px',
         width: '100%',
